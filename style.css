@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.container {
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+h1 { text-align: center; }
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.month {
+  margin-bottom: 25px;
+}
+
+.month h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.day {
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 6px;
+  background: #2a2a2a;
+  font-weight: bold;
+}
+
+.sunday {
+  cursor: pointer;
+  border: 2px solid #ff9800;
+}
+
+.work { background: #4caf50; }
+.off { background: #f44336; }
+
+.info {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
